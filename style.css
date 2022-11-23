@@ -1,3 +1,32 @@
 body {
     background-image: url(p1.jpg);
 }
+
+label{
+    display: inline-block;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 120%;
+}
+
+input[type=text]{
+    padding: 10px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid rgb(65, 65, 65);
+    width: 45%;
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#geoloc{
+    font-family: 'Courier New', Courier, monospace;
+    background-color:olive;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 120%;
+    margin: 4px 2px;
+}
