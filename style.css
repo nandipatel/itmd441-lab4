@@ -1,12 +1,25 @@
 body {
     background-image: url(p1.jpg);
+    font-family: 'Courier New', Courier, monospace;
+}
+h2 {
+    margin: auto;
+    text-align: center;
+    font-size: 230%;
+    border-radius: 10%;
+    padding: 20px; 
+    width: 90%;
+    height: 35px;
+    background: rgb(166, 132, 157);
+    letter-spacing: 4px;
+    color: white;
 }
 
-label{
+label {
     display: inline-block;
     text-align: left;
-    font-family: 'Courier New', Courier, monospace;
     font-size: 120%;
+    padding-top: 4%;
 }
 
 input[type=text]{
