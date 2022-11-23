@@ -21,6 +21,16 @@ label {
     font-size: 120%;
     padding-top: 4%;
 }
+#enter, #geoloc{
+    font-family: 'Courier New', Courier, monospace;
+    background-color:olive;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 120%;
+    margin: 4px 2px;
+}
 
 input[type=text]{
     padding: 10px 15px;
@@ -31,15 +41,4 @@ input[type=text]{
     box-sizing: border-box;
     color: black;
     font-family: 'Courier New', Courier, monospace;
-}
-
-#geoloc{
-    font-family: 'Courier New', Courier, monospace;
-    background-color:olive;
-    color: white;
-    padding: 10px 15px;
-    text-align: center;
-    display: inline-block;
-    font-size: 120%;
-    margin: 4px 2px;
 }

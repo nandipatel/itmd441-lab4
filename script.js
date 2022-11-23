@@ -1,4 +1,13 @@
+//grabbing input
+document.getElementById("enter").addEventListener("click", getLoc());
+
+
 //getting location
-location = document.getElementById("loc")
-//const base ="https://weatherdbi.herokuapp.com/data/weather/" + location;
-console.log(base);
+function getLoc(){
+    location = document.getElementById("loc");
+    partURL = "https://weatherdbi.herokuapp.com/data/weather/";
+    urlLink = partURL + location;
+    
+    const base = urlLink;
+    console.log(base);
+}

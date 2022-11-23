@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Forecast</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    
+    <script scr="script.js"></script>
 </head>
 <body>
     <header>
@@ -14,13 +14,15 @@
     </header>
     
     <div id="grid-con">
-        <!-- AREA TO ENTER LOCATION -->
-        <label for="Location">Enter Location:</label>
-        <input type="text" id="loc" name="loc">
+        <form id="myForm"></form>
+            <!-- AREA TO ENTER LOCATION -->
+            <label for="Location">Enter Location:</label>
+            <input type="text" id="loc" name="loc">
+            <button type="button" id="enter">Enter</button>
 
-        <!-- BUTTON TO GET CURRENT GEOLOC -->
-        <button type="button" id="geoloc">Current Geolocation</button>
+            <!-- BUTTON TO GET CURRENT GEOLOC -->
+            <button type="button" id="geoloc">Current Geolocation</button>
+        </form>
     </div>
-    <script src="script.js"></script>
 </body>
 </html>
